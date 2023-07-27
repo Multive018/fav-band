@@ -59,7 +59,7 @@ img{
       border-radius: 20px;
       border: 1px solid #fdba9a;
       color: #fdba9a;
-      font-size: 13px;
+      font-size: 18px;
       padding: 9px;
       margin-top: 25px;
       transition: all 200ms ease-in-out;
@@ -95,5 +95,8 @@ img{
       }
       .about{
         margin: 0 30px;
+      }
+      .btn{
+        font-size: 14px;
       }
     }
