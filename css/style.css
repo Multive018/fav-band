@@ -34,6 +34,9 @@ img{
       opacity: 0.9;
       color:#ce5016;
     }
+    .image{
+      margin-top: 50px;
+    }
     .heading{
       display: block;
       margin: 10px auto;
@@ -44,22 +47,29 @@ img{
       width: fit-content;
     }
     .about{
-      margin: 0 70px;
+      margin: 70px;
       color:#fdba9a;
+    }
+    .important{
+      margin-top: 30px;
+    }
+    .albums{
+      margin-bottom: 10px;
     }
     .album-title{
       color: #fdba9a;
     }
     .style-body{
       display:block;
+      margin: 120px auto;
       text-align: center;
-      line-height: normal;
+      line-height: 1.5;
     }
     .btn{
-      border-radius: 20px;
+      border-radius: 18px;
       border: 1px solid #fdba9a;
       color: #fdba9a;
-      font-size: 18px;
+      font-size: 16px;
       padding: 9px;
       margin-top: 25px;
       transition: all 200ms ease-in-out;
