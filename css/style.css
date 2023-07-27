@@ -1,0 +1,99 @@
+body{
+  background:linear-gradient(107.2deg, rgb(122, 11, 11) 10.6%, rgb(167, 2, 2) 91.1%);
+  font-family: "Poppins";
+}
+h2{
+  font-size: 30px;
+}
+img{
+  width:500px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+    em{
+      color:#000;
+    }
+    hr{
+      margin: 20px;
+      color: #fdba9a;
+    }
+    button{
+      display: block;
+      margin: 10px auto;
+      font-size: 20px;
+      padding: 10px;
+      background-color: #fdba9a;
+      border:1px solid #fdba9a;
+      border-radius: 30px;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+      transition: all 200ms ease-in-out;
+    }
+    button:hover{
+      transform: scale(1.1);
+      cursor:pointer;
+      opacity: 0.9;
+      color:#ce5016;
+    }
+    .heading{
+      display: block;
+      margin: 10px auto;
+      padding: 10px;
+      font-size: 55px;
+      border-radius: 5px;
+      border: 1px solid #000;
+      width: fit-content;
+    }
+    .about{
+      margin: 0 70px;
+      color:#fdba9a;
+    }
+    .album-title{
+      color: #fdba9a;
+    }
+    .style-body{
+      display:block;
+      text-align: center;
+      line-height: normal;
+    }
+    .btn{
+      border-radius: 20px;
+      border: 1px solid #fdba9a;
+      color: #fdba9a;
+      font-size: 13px;
+      padding: 9px;
+      margin-top: 25px;
+      transition: all 200ms ease-in-out;
+    }
+    .btn:hover{
+      transform: scale(1.1);
+      cursor:pointer;
+      opacity: 0.9;
+      background-color: #fdba9a;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35) ;
+    }
+
+    @media (max-width: 800px) {
+      h1{
+        font-size: 28px;
+      }
+      h2{
+        margin-top: 30px;
+        font-size: 24px;
+      }
+      button{
+        font-size: 14px;
+      }
+      body{
+        font-size: 12px;
+        text-align:center;
+      }
+      img{
+      width:300px;
+    }
+      .listen-button{
+        font-size: 12px;
+      }
+      .about{
+        margin: 0 30px;
+      }
+    }
