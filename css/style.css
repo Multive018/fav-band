@@ -54,14 +54,15 @@ img{
       margin-top: 30px;
     }
     .albums{
-      margin-bottom: 10px;
+      margin-top: 30px;
+      margin-bottom: 20px;
     }
     .album-title{
       color: #fdba9a;
     }
     .style-body{
       display:block;
-      margin: 120px auto;
+      margin: 100px auto;
       text-align: center;
       line-height: 1.5;
     }
@@ -108,5 +109,8 @@ img{
       }
       .btn{
         font-size: 14px;
+      }
+      .style-body{
+        margin: 50px auto;
       }
     }
