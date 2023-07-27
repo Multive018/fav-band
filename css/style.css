@@ -6,15 +6,20 @@ h2{
   font-size: 30px;
 }
 img{
-  width:500px;
+  width:600px;
   margin: 10px auto;
   border-radius: 10px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+img:hover{
+  width: 500px;
 }
     em{
       color:#000;
     }
     hr{
-      margin: 20px;
+      margin: 40px;
       color: #fdba9a;
     }
     button{
@@ -47,22 +52,20 @@ img{
       width: fit-content;
     }
     .about{
-      margin: 70px;
+      display: block;
+      margin: auto;
+      max-width: 900px;
       color:#fdba9a;
     }
     .important{
       margin-top: 30px;
-    }
-    .albums{
-      margin-top: 30px;
-      margin-bottom: 20px;
     }
     .album-title{
       color: #fdba9a;
     }
     .style-body{
       display:block;
-      margin: 100px auto;
+      margin: 80px auto;
       text-align: center;
       line-height: 1.5;
     }
@@ -99,7 +102,10 @@ img{
         text-align:center;
       }
       img{
-      width:300px;
+        width: 300px;
+      }
+      img:hover{
+      width:400px;
     }
       .listen-button{
         font-size: 12px;
@@ -111,6 +117,6 @@ img{
         font-size: 14px;
       }
       .style-body{
-        margin: 50px auto;
+        margin: 40px auto;
       }
     }
