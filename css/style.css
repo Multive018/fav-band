@@ -1,6 +1,7 @@
 body{
   background:linear-gradient(107.2deg, rgb(83, 4, 4) 10.6%, rgb(117, 2, 2) 91.1%);
   font-family: "Poppins";
+  color: #ce5016;
 }
 h2{
   font-size: 30px;
@@ -16,7 +17,7 @@ img:hover{
   width: 500px;
 }
     em{
-      color:#000;
+      color:#ce5016;
     }
     hr{
       margin: 40px;
@@ -48,14 +49,14 @@ img:hover{
       padding: 10px;
       font-size: 55px;
       border-radius: 5px;
-      border: 1px solid #000;
+      border: 1px solid #ce5016;
       width: fit-content;
     }
     .about{
       display: block;
       margin: auto;
       max-width: 900px;
-      color:#fdba9a;
+      color: #fdba9a;
     }
     .important{
       margin-top: 30px;
